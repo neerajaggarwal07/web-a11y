@@ -1,0 +1,38 @@
+#header {
+    transition: all 0.5s;
+    z-index: 997;
+ 
+  }
+  
+  #header.header-scrolled {
+    background: rgba(5, 87, 158, 0.9);
+    top: 0;
+  }
+  
+  #header .logo {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  
+  #header .logo a {
+    color: #fff;
+  }
+  
+  #header .logo img {
+    max-height: 40px;
+  }
+  
+  .header-inner-pages {
+    background: rgba(5, 87, 158, 0.9) !important;
+  }
+  
+  .topbar-inner-pages {
+    background: rgba(6, 98, 178, 0.9) !important;
+  }
+  
+  

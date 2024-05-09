@@ -1,0 +1,19 @@
+.page-header {
+    padding-top: 12rem;
+    padding-bottom: 6rem;
+    background: url(../../../../public/img/header.jpg) top left no-repeat;
+    background-size: cover;
+    @media (max-width: 768px) {
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+}
+
+.page-header .breadcrumb-item,
+.page-header .breadcrumb-item a {
+    font-weight: 500;
+}
+
+.page-header .breadcrumb-item+.breadcrumb-item::before {
+    color: var(--tertiary);
+}

@@ -1,0 +1,32 @@
+.sec-halfs .half-content > div {
+  width: 50%;
+}
+@media (max-width: 991.98px) {
+  .sec-halfs .half-content > div {
+    width: 100%;
+  }
+}
+
+.sec-halfs .half-content .img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media (max-width: 991.98px) {
+  .sec-halfs .half-content .img {
+    height: 450px;
+  }
+}
+
+.sec-halfs .half-content .text {
+  padding: 20px;
+}
+@media (max-width: 991.98px) {
+  .sec-halfs .half-content .text {
+    padding: 30px;
+  }
+}
+
+.sec-halfs .half-content .heading {
+  font-weight: 600;
+}
