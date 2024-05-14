@@ -52,7 +52,7 @@ export default function Testimonial() {
                 <div className="btn-square bg-white border rounded-circle">
                   <i className="fa fa-quote-right fa-2x text-primary"></i>
                 </div>
-                I consider smartFinance more than a financial advisory firm, but a constant part of my life, always ready to offer a helping hand, provide sound advice and offer support in matters when needed. With smartFinance, I've found not only financial guidance but also lifelong friends!
+                I consider smartFinance more than a financial advisory firm, but a constant part of my life, always ready to offer a helping hand, provide sound advice and offer support in matters when needed. With smartFinance, I have found not only financial guidance but also lifelong friends!
               </div>
               <img
                 className="rounded-circle mb-3"
@@ -82,7 +82,7 @@ export default function Testimonial() {
                 <div className="btn-square bg-white border rounded-circle">
                   <i className="fa fa-quote-right fa-2x text-primary"></i>
                 </div>
-                smartFinance has been instrumental in providing timely advice and making necessary adjustments to keep me aligned with my goals. With them, I've always felt like a valued client.
+                smartFinance has been instrumental in providing timely advice and making necessary adjustments to keep me aligned with my goals. With them, I have always felt like a valued client.
               </div>
               <img
                 className="rounded-circle mb-3"
@@ -97,7 +97,7 @@ export default function Testimonial() {
                 <div className="btn-square bg-white border rounded-circle">
                   <i className="fa fa-quote-right fa-2x text-primary"></i>
                 </div>
-                “I am incredibly satisfied with Daniel Thornton and Concord Wealth Partners. I completely trust him as my Wealth Advisor, and honestly believe he takes care of my financial security and future as if I am a part of his family."
+                I am incredibly satisfied with Daniel Thornton and Concord Wealth Partners. I completely trust him as my Wealth Advisor, and honestly believe he takes care of my financial security and future as if I am a part of his family.
               </div>
               <img
                 className="rounded-circle mb-3"
