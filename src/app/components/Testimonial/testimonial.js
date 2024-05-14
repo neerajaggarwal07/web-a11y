@@ -52,68 +52,60 @@ export default function Testimonial() {
                 <div className="btn-square bg-white border rounded-circle">
                   <i className="fa fa-quote-right fa-2x text-primary"></i>
                 </div>
-                Dolores sed duo clita tempor justo dolor et stet lorem kasd
-                labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et
-                labore et tempor diam tempor erat.
+                I consider smartFinance more than a financial advisory firm, but a constant part of my life, always ready to offer a helping hand, provide sound advice and offer support in matters when needed. With smartFinance, I've found not only financial guidance but also lifelong friends!
               </div>
               <img
                 className="rounded-circle mb-3"
                 src="img/testimonial-1.jpg"
-                alt=""
+                alt="Headshot of Claire Smith, a businesswoman in suit with a cheerful smile on a blurred backdrop."
               />
-              <h4>Client Name</h4>
-              <span>Profession</span>
+              <h4>Claire Smith</h4>
+              <span>Financial Analysist</span>
             </div>
             <div className="testimonial-item">
               <div className="testimonial-text border rounded p-4 pt-5 mb-5">
                 <div className="btn-square bg-white border rounded-circle">
                   <i className="fa fa-quote-right fa-2x text-primary"></i>
                 </div>
-                Dolores sed duo clita tempor justo dolor et stet lorem kasd
-                labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et
-                labore et tempor diam tempor erat.
+                it was always reinforced that these investments are linked to my goals and meant to be utilised a few years down the line.
               </div>
               <img
                 className="rounded-circle mb-3"
                 src="img/testimonial-2.jpg"
-                alt=" "
+                alt="Headshot of James Griffin with a beard and a white shirt laughing joyfully on a gray backdrop."
               />
-              <h4>Client Name</h4>
-              <span>Profession</span>
+              <h4>James Griffin</h4>
+              <span>Medicine Practioner</span>
             </div>
             <div className="testimonial-item">
               <div className="testimonial-text border rounded p-4 pt-5 mb-5">
                 <div className="btn-square bg-white border rounded-circle">
                   <i className="fa fa-quote-right fa-2x text-primary"></i>
                 </div>
-                Dolores sed duo clita tempor justo dolor et stet lorem kasd
-                labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et
-                labore et tempor diam tempor erat.
+                smartFinance has been instrumental in providing timely advice and making necessary adjustments to keep me aligned with my goals. With them, I've always felt like a valued client.
               </div>
               <img
                 className="rounded-circle mb-3"
                 src="img/testimonial-3.jpg"
-                alt=""
+                alt="Headshot of Jasica Wilson directly at the camera smiling on a blurred backdrop."
               />
-              <h4>Client Name</h4>
-              <span>Profession</span>
+              <h4>Jasica Wilson</h4>
+              <span>Fashion Designer</span>
             </div>
             <div className="testimonial-item">
               <div className="testimonial-text border rounded p-4 pt-5 mb-5">
                 <div className="btn-square bg-white border rounded-circle">
                   <i className="fa fa-quote-right fa-2x text-primary"></i>
                 </div>
-                Dolores sed duo clita tempor justo dolor et stet lorem kasd
-                labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et
-                labore et tempor diam tempor erat.
+                “I am incredibly satisfied with Daniel Thornton and Concord Wealth Partners. I completely trust him as my Wealth Advisor, and honestly believe he takes care of my financial security and future as if I am a part of his family."
               </div>
               <img
                 className="rounded-circle mb-3"
                 src="img/testimonial-4.jpg"
-                alt=""
+                alt="Headshot of William Anderson directly at the camera wearing a formal business gray suite on a gray backdrop."
               />
-              <h4>Client Name</h4>
-              <span>Profession</span>
+              <h4>William Anderson</h4>
+              <span>Architect</span>
             </div>
           </Slider>
         </div>

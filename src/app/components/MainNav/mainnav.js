@@ -24,14 +24,16 @@ export default function MainNav() {
           <span className="navbar-toggler-icon"></span>
         </button>
       </div>
+     
       <div id="navbarCollapse" className="collapse navbar-collapse">
-        <ul className="navbar-nav ms-auto p-4 p-lg-0">
+        <ul className="navbar-nav ms-auto p-4 p-lg-0" aria-label="header main menu">
           <li>
             <Link
               className={`nav-link scrollto ${
                 pathNames[0] === undefined && "active"
               }`}
               href="/"
+              aria-current={pathNames[0] === undefined && "true"}
             >
               Home
             </Link>
@@ -48,43 +50,43 @@ export default function MainNav() {
           </li>
           <li className="dropdown">
             <a href="#" className="nav-link scrollto">
-              <span>Drop Down</span> <i className="bi bi-chevron-down"></i>
+              <span>Insights</span> <i className="bi bi-chevron-down"></i>
             </a>
             <ul>
               <li>
-                <a href="#">Drop Down 1</a>
+                <a href="#">Financial Analysis</a>
               </li>
               <li className="dropdown">
                 <a href="#">
-                  <span>Deep Drop Down</span>{" "}
+                  <span>Our Clients</span>{" "}
                   <i className="bi bi-chevron-right"></i>
                 </a>
                 <ul>
                   <li>
-                    <a href="#">Deep Drop Down 1</a>
+                    <a href="#">Business Owner</a>
                   </li>
                   <li>
-                    <a href="#">Deep Drop Down 2</a>
+                    <a href="#">Influencer</a>
                   </li>
                   <li>
-                    <a href="#">Deep Drop Down 3</a>
+                    <a href="#">Athlete</a>
                   </li>
                   <li>
-                    <a href="#">Deep Drop Down 4</a>
+                    <a href="#">High Net Worth Family</a>
                   </li>
                   <li>
-                    <a href="#">Deep Drop Down 5</a>
+                    <a href="#">Retiree</a>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href="#">Drop Down 2</a>
+                <a href="#">Business Solutions</a>
               </li>
               <li>
-                <a href="#">Drop Down 3</a>
+                <a href="#">Client Manangement</a>
               </li>
               <li>
-                <a href="#">Drop Down 4</a>
+                <a href="#">Tax Planning</a>
               </li>
             </ul>
           </li>
@@ -94,8 +96,20 @@ export default function MainNav() {
               className={`nav-link scrollto ${
                 pathNames[0] === "services" && "active"
               }`}
+              aria-current={pathNames[0] === "services" ? "true":""}
             >
               Our Services
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/investments"
+              className={`nav-link scrollto ${
+                pathNames[0] === "investments" && "active"
+              }`}
+              aria-current={pathNames[0] === "investments" ? "true":""}
+            >
+              Investments
             </Link>
           </li>
           <li>
@@ -104,6 +118,7 @@ export default function MainNav() {
               className={`nav-link scrollto ${
                 pathNames[0] === "products" && "active"
               }`}
+              aria-current={pathNames[0] === "products" ? "true":""}
             >
               Products
             </Link>
@@ -114,6 +129,7 @@ export default function MainNav() {
               className={`nav-link scrollto ${
                 pathNames[0] === "contact" && "active"
               }`}
+              aria-current={pathNames[0] === "contact" ? "true":""}
             >
               Contact Us
             </Link>

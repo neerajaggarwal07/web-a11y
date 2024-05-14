@@ -1,0 +1,11 @@
+.video-container {
+    margin: auto; 
+    position: absolute;
+    z-index: -1; 
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    visibility: visible; 
+    opacity: 1;
+    width: 1708px; height: auto;
+}

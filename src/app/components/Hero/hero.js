@@ -14,7 +14,7 @@ export default function Hero() {
             <img
               className="d-block w-100"
               src="img/carousel-1.jpg"
-              alt="Image One"
+              alt="One lady wearing the formal white dress sitting at the desk and looking at the white laptop screen and also noting down some information on paper"
             />
             <div className="carousel-caption ">
               <div className="container">
@@ -23,14 +23,17 @@ export default function Hero() {
                     <p className="d-inline-block border border-white rounded text-primary fw-semi-bold py-1 px-3 animated slideInDown">
                       Welcome to Smart Finance
                     </p>
-                    <h1 className=" mb-4 animated slideInDown text-black">
-                      Your Financial Status Is Our Goal
+                    <h1 className=" mb-lg-4 animated slideInDown text-black">
+                    Money is confusing.
                     </h1>
+                    <h2 className="mb-lg-4 animated slideInDown text-black">
+                    We’ll help you figure it out.
+                    </h2>
                     <a
                       href=""
                       className="btn btn-primary py-sm-3 px-sm-5 animated slideInDown "
                     >
-                      Explore More
+                      Shechdule a call
                     </a>
                   </div>
                 </div>
@@ -41,7 +44,7 @@ export default function Hero() {
             <img
               className="d-block w-100"
               src="img/carousel-2.jpg"
-              alt="Image Two"
+              alt="A businesswoman presenting to a group of people in a conference room."
             />
             <div className="carousel-caption">
               <div className="container">
@@ -51,7 +54,7 @@ export default function Hero() {
                          Welcome to Smart Finance
                     </p>
                     <h1 className="mb-4 animated slideInDown text-black">
-                      Your Financial Status Is Our Goal
+                    We Are Your Financial Partner When You’ve Outgrown The Rest
                     </h1>
                     <a
                       href=""

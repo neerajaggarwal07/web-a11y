@@ -10,7 +10,7 @@ export default function AboutUs() {
             <img
               className="img-fluid rounded"
               src="img/about.jpg"
-              alt="Image Two"
+              alt="Two businessmen in suits examining a smartphone screen together."
             />
           </div>
           <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -21,9 +21,7 @@ export default function AboutUs() {
               We Help Our Clients To Grow Their Business
             </h1>
             <p className="mb-4">
-              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
-              diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
-              lorem sit clita duo justo magna dolore erat amet
+            We want to create superior value for our clients, shareholders and employees. And we want to stand out as a winner in our industry: for our expertise, advice and execution, our contribution to society, our work environment, and our business success.
             </p>
             <div className="border rounded p-4">
               <nav>
@@ -74,12 +72,11 @@ export default function AboutUs() {
                   aria-labelledby="nav-story-tab"
                 >
                   <p>
-                    Tempor erat elitr rebum at clita. Diam dolor diam ipsum et
-                    tempor sit. Aliqu diam amet diam et eos labore.
+                  With a a strategic partnership of qualified advisors, attorneys, tax and
+                  investment professionals, we bring sophisticated strategies.
                   </p>
                   <p className="mb-0">
-                    Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et
-                    eos labore. Clita erat ipsum et lorem et sit
+                  Documenting your assets to ensure a seamless transition to your chosen beneficiaries, thereby cementing your legacy.
                   </p>
                 </div>
                 <div
@@ -89,12 +86,10 @@ export default function AboutUs() {
                   aria-labelledby="nav-mission-tab"
                 >
                   <p>
-                    Tempor erat elitr rebum at clita. Diam dolor diam ipsum et
-                    tempor sit. Aliqu diam amet diam et eos labore.
+                  Assess your needs and policies to shield yourself from unexpected events and risks - prepare for what lies ahead.
                   </p>
                   <p className="mb-0">
-                    Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et
-                    eos labore. Clita erat ipsum et lorem et sit
+                  Handling debt responsibly to minimise borrowing costs, create assets for the future, and strengthen your credit profile.
                   </p>
                 </div>
                 <div
@@ -104,12 +99,10 @@ export default function AboutUs() {
                   aria-labelledby="nav-vision-tab"
                 >
                   <p>
-                    Tempor erat elitr rebum at clita. Diam dolor diam ipsum et
-                    tempor sit. Aliqu diam amet diam et eos labore.
+                  Investing with purpose is an extremely powerful tool to disengage from excessive information clutter and deal with volatility better
                   </p>
                   <p className="mb-0">
-                    Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et
-                    eos labore. Clita erat ipsum et lorem et sit
+                  Focus on choosing the right financial instruments and regime to reduce tax burdens and enhance returns.
                   </p>
                 </div>
               </div>
@@ -126,7 +119,7 @@ export default function AboutUs() {
                   </div>
                   <div className="ps-3">
                     <h4>No Hidden Cost</h4>
-                    <span>Clita erat ipsum lorem sit sed stet duo justo</span>
+                    <span>100% Transparency and value for your money</span>
                   </div>
                   <div className="border-end d-none d-lg-block"></div>
                 </div>
@@ -141,7 +134,7 @@ export default function AboutUs() {
                   </div>
                   <div className="ps-3">
                     <h4>Dedicated Team</h4>
-                    <span>Clita erat ipsum lorem sit sed stet duo justo</span>
+                    <span>All Experienced individual with high qualifications</span>
                   </div>
                   <div className="border-end d-none d-lg-block"></div>
                 </div>
@@ -156,7 +149,7 @@ export default function AboutUs() {
                   </div>
                   <div className="ps-3">
                     <h4>24/7 Available</h4>
-                    <span>Clita erat ipsum lorem sit sed stet duo justo</span>
+                    <span>We live and work near you</span>
                   </div>
                 </div>
               </div>

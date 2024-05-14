@@ -38,14 +38,12 @@ export default function SideTabs() {
                                 <div className="col-md-6" style={{minHeight: "350px"}}>
                                     <div className="position-relative h-100">
                                         <img className="position-absolute rounded w-100 h-100" src="img/service-1.jpg"
-                                            style={{objectFit: "cover"}} alt=""/>
+                                            style={{objectFit: "cover"}} alt="Businessman holding paper hard board showing some information to the businesswoman wearing formal attire standing near him outside a building."/>
                                     </div>
                                 </div>
                                 <div className="col-md-6">
                                     <h3 className="mb-4">25 Years Of Experience In Financial Support</h3>
-                                    <p className="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
-                                        diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit
-                                        clita duo justo erat amet.</p>
+                                    <p className="mb-4">Our comprehensive financial services help high-net-worth individuals and business owners discover their wealth’s true potential through effective strategies to simplify complex scenarios and achieve their goals.</p>
                                     <p><i className="fa fa-check text-primary me-3"></i>Secured Loans</p>
                                     <p><i className="fa fa-check text-primary me-3"></i>Credit Facilities</p>
                                     <p><i className="fa fa-check text-primary me-3"></i>Cash Advanced</p>
@@ -58,17 +56,15 @@ export default function SideTabs() {
                                 <div className="col-md-6" style={{minHeight: "350px"}}>
                                     <div className="position-relative h-100">
                                         <img className="position-absolute rounded w-100 h-100" src="img/service-2.jpg"
-                                            style={{objectFit: "cover"}} alt="" />
+                                            style={{objectFit: "cover"}} alt="Three professional people sitting in the office room and doing the meeting." />
                                     </div>
                                 </div>
                                 <div className="col-md-6">
-                                    <h3 className="mb-4">25 Years Of Experience In Financial Support</h3>
-                                    <p className="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
-                                        diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit
-                                        clita duo justo erat amet.</p>
-                                    <p><i className="fa fa-check text-primary me-3"></i>Secured Loans</p>
-                                    <p><i className="fa fa-check text-primary me-3"></i>Credit Facilities</p>
-                                    <p><i className="fa fa-check text-primary me-3"></i>Cash Advanced</p>
+                                    <h3 className="mb-4">Cash Investment</h3>
+                                    <p className="mb-4">Optimize thorough use of deductions, trusts, retirement plans, charitable giving, and conversion strategies to manage taxes..</p>
+                                    <p><i className="fa fa-check text-primary me-3"></i>Share Market</p>
+                                    <p><i className="fa fa-check text-primary me-3"></i>Banks Funds</p>
+                                    <p><i className="fa fa-check text-primary me-3"></i>Gold Purchase</p>
                                     <a href="" className="btn btn-primary py-3 px-5 mt-3">Read More</a>
                                 </div>
                             </div>
@@ -78,17 +74,15 @@ export default function SideTabs() {
                                 <div className="col-md-6" sstyle={{minHeight: "350px"}}>
                                     <div className="position-relative h-100">
                                         <img className="position-absolute rounded w-100 h-100" src="img/service-3.jpg"
-                                            style={{objectFit: "cover"}} alt="" />
+                                            style={{objectFit: "cover"}} alt="One lady professional executive smiling and shaking hand with female client in her office room." />
                                     </div>
                                 </div>
                                 <div className="col-md-6">
-                                    <h3 className="mb-4">25 Years Of Experience In Financial Support</h3>
-                                    <p className="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
-                                        diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit
-                                        clita duo justo erat amet.</p>
-                                    <p><i className="fa fa-check text-primary me-3"></i>Secured Loans</p>
-                                    <p><i className="fa fa-check text-primary me-3"></i>Credit Facilities</p>
-                                    <p><i className="fa fa-check text-primary me-3"></i>Cash Advanced</p>
+                                    <h3 className="mb-4">Financial Consultancy</h3>
+                                    <p className="mb-4">Thoughtfully plan your legacy with wealth transfer considerations..</p>
+                                    <p><i className="fa fa-check text-primary me-3"></i>Peronsal Finance</p>
+                                    <p><i className="fa fa-check text-primary me-3"></i>Retirement Planning</p>
+                                    <p><i className="fa fa-check text-primary me-3"></i>Equity Investment</p>
                                     <a href="" className="btn btn-primary py-3 px-5 mt-3">Read More</a>
                                 </div>
                             </div>
@@ -98,14 +92,12 @@ export default function SideTabs() {
                                 <div className="col-md-6" style={{minHeight: "350px"}}>
                                     <div className="position-relative h-100">
                                         <img className="position-absolute rounded w-100 h-100" src="img/service-4.jpg"
-                                            style={{objectFit: "cover"}} alt="" />
+                                            style={{objectFit: "cover"}} alt="Two professional ladies are discussing some business agenda." />
                                     </div>
                                 </div>
                                 <div className="col-md-6">
-                                    <h3 className="mb-4">25 Years Of Experience In Financial Support</h3>
-                                    <p className="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
-                                        diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit
-                                        clita duo justo erat amet.</p>
+                                    <h3 className="mb-4">Business Loans</h3>
+                                    <p className="mb-4">Plan for life events, such as selling your business, changing employers or inheriting a family estate.</p>
                                     <p><i className="fa fa-check text-primary me-3"></i>Secured Loans</p>
                                     <p><i className="fa fa-check text-primary me-3"></i>Credit Facilities</p>
                                     <p><i className="fa fa-check text-primary me-3"></i>Cash Advanced</p>

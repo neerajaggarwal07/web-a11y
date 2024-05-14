@@ -1,7 +1,18 @@
-import React from "react";
+
+import React, {useState} from "react";
 import "./footer.css";
+import Modal from "../Modal/modal";
 
 export default function Footer() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
   return (
     <>
       <footer
@@ -26,24 +37,28 @@ export default function Footer() {
                 <a
                   className="btn btn-square btn-outline-light rounded-circle me-2"
                   href=""
+                  aria-label="twiter"
                 >
                   <i className="fab fa-twitter"></i>
                 </a>
                 <a
                   className="btn btn-square btn-outline-light rounded-circle me-2"
                   href=""
+                  aria-label="facebook"
                 >
                   <i className="fab fa-facebook-f"></i>
                 </a>
                 <a
                   className="btn btn-square btn-outline-light rounded-circle me-2"
                   href=""
+                  aria-label="youtube"
                 >
                   <i className="fab fa-youtube"></i>
                 </a>
                 <a
                   className="btn btn-square btn-outline-light rounded-circle me-2"
                   href=""
+                  aria-label="linked in"
                 >
                   <i className="fab fa-linkedin-in"></i>
                 </a>
@@ -51,7 +66,7 @@ export default function Footer() {
             </div>
             <div className="col-lg-3 col-md-6">
               <h4 className="text-white mb-4">Services</h4>
-              <a className="btn btn-link" href="">
+              <a className="btn btn-link" href="" >
                 Financial Planning
               </a>
               <a className="btn btn-link" href="">
@@ -87,7 +102,7 @@ export default function Footer() {
             </div>
             <div className="col-lg-3 col-md-6">
               <h4 className="text-white mb-4">Newsletter</h4>
-              <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+              <p>Dolor amet sit justo amet elitr </p>
               <div className="position-relative w-100">
                 <input
                   className="form-control bg-white border-0 w-100 py-3 ps-4 pe-5"
@@ -100,7 +115,17 @@ export default function Footer() {
                 >
                   SignUp
                 </button>
+                
               </div>
+              <div className="position-relative w-100">
+              <button type="button" onClick={openModal} className='open-modal-button btn btn-light py-2  mt-2 me-2'>Cookie Consent Modal</button>
+
+              <Modal isOpen={isModalOpen} onClose={closeModal}>
+                  <h2>Modal Content</h2>
+                  <p>This is the content inside the modal.</p>
+              </Modal>
+              </div>
+             
             </div>
           </div>
         </div>
